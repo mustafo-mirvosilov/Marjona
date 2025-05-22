@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(114, 114, 247);
+}
+header{
+    margin: 50px 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    flex-direction: row;
+}
+ul li{ 
+    height: 50px;
+    font-size: 22px;
+    line-height: 50px;
+    padding: 0 15px;
+}
+ul li:hover{
+    background-color: rgb(184, 184, 244);
+    border-bottom: 2px solid blue;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+section div{
+    background-color: white;
+    height: 350px;
+}
+section div img{
+    width: 80%;
+    height: 70%;
+    margin: 15px 50px;
+}
